@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,600,600i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.min.css">
     <title>My Recipes</title>
 </head>
@@ -14,38 +14,41 @@
         </div>
         <nav class="topnav">
             <ul class="topmenu">
-                <li><a href="bread.html"><span class="icon-Bread"></span> Bread</a></li>
-                <li><a href="#"><span class="icon-Starters"></span> Starters</a></li>
-                <li><a href="#"><span class="icon-Meals"></span> Main Courses</a></li>
-                <li><a href="#"><span class="icon-Sweets"></span> Desserts</a></li>
-                <li><a href="#"><span class="icon-Drinks"></span> Drinks</a></li>
+                <li><a href="bread.html"><span class="icon-bread"></span> Bread</a></li>
+                <li><a href="#"><span class="icon-starters"></span> Starters</a></li>
+                <li><a href="#"><span class="icon-maincourses"></span> Main Courses</a></li>
+                <li><a href="#"> <span class="icon-desserts"></span> Desserts</a></li>
+                <li><a href="#"><span class="icon-glass"></span> Drinks</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="col-3-1">
             <div class="splashlogo">
-                <img src="svg/my-recipes.svg" width="50%" title="myrecipes lógó">
+                <img src="svg/my-recipes.svg" title="myrecipes lógó">
             </div>
             <div class="kynning">
                 <h2>Scalable Vector Graphics. Í 4. verkefni búum við til nýja forsíðu á uppskriftarvefinn og notum SVG tákn í lógó og leturtákn í efnisyfirliti.  Til að byrja með notum við vefsíðurnar úr 3. verkefni sem undirsíður og höfum aðra tengla í efnisyfirlitinu óvirka. </h2>
             </div>
             <div class="auglysing">
-                <p>Í 5. verkefni búum við til auglýsingu og setjum hana hér með <br><em> <!--{-->% include "auglysing.html" %<!--}--></em><br> skipuninni</p>
+                <p>Í 5. verkefni búum við til auglýsingu og setjum hana hér með <br><em> {% include "auglysing.html" %}</em><br> skipuninni</p>
             <div>
         </section>
         <figure class="col-4">
             <img src="img/bread.jpg" title="bread">
-            <img src="img/FigHamStarter.jpg"title="starters">
-            <img src="img/Grilled-Buttermilk-Chicken.jpg"itle="courses">
-            <img src="img/desserts-hero.jpg"title="desserts">
+            <img src="img/FigHamStarter.jpg" title="starters">
+            <img src="img/Grilled-Buttermilk-Chicken.jpg" title="courses">
+            <img src="img/desserts-hero.jpg" title="desserts">
         </figure>
     </main>
-    <footer><p>&copy; 2020 EHH - Tölvubraut Tækniskólans</p></footer>
+    <footer><p>&copy; 2020 Elías Hrafn - tölvubraut Tækniskólans</p></footer>
+    <!-- Social Media Buttons -->
+<!--input type="checkbox" id="buttToggle" class="buttInput">
+<label for="buttToggle" class="buttLabel"> <span class="icon-bubbles4"> </span></label-->
 <div class="sMedia">
     <div class="bubbles">
-        <a href="http://twitter.com" title="Twitter">
-            <span class="icon-twitter"> </span>
+        <a href="https://github.com/EliasHrafn/" title="EH">
+            <span class="icon-bubbles"> </span>
         </a>
     </div>
     <div class="facebook">
@@ -54,15 +57,18 @@
         </a> 
     </div>
     <div class="github"> 
-        <a href="https://github.com/" title="Github">
+        <a href="https://github.com/vefhonnun" title="Github">
             <span class="icon-github"> </span>
         </a>
     </div>
     <div class="soundcloud"> 
         <a href="https://soundcloud.com/" title="Soundcloud">
-            <span class="icon-soundcloud"> </span>
+            <span class="icon-soundcloud2"> </span>
         </a>
     </div>
 </div>
 </body>
 </html>
+
+
+
